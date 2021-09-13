@@ -5,6 +5,12 @@ body {
     height: 1080px;
 }
 
+h2 {
+    font-size: 24pt;
+    color: chartreuse;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,25 +25,35 @@ div {
     background: orange;
     text-align: center;
     border-radius: 4px;
-    transition-duration: 800ms;
+    transition-duration: 600ms;
     /*display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     */
     margin: 40px 100px 60px;
+    padding: 10px;
     border: 2px solid cornflowerblue;
+    transition-delay: 150ms;
+    transition-timing-function: ease-out;
 }
 
 .part1:hover {
     background: cornflowerblue;
-    width: 280px;
-    height: 70px;
+    width: 340px;
+    height: 120px;
+}
+
+.part2 {
+    transition-duration: 1200ms;
+    transition-delay: 250ms;
+    transition-timing-function: ease-out;
 }
 
 .part2:hover {
     background-color: crimson;
     transform: rotate(360deg);
-    width: 300px;
-    height: 100px;
+    width: 320px;
+    height: 110px;
+    border-radius: 20px;
 }
